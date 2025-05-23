@@ -47,7 +47,11 @@ To enable passwordless SSH access for GitLab CI/CD to your EC2 server:
     ```bash
     ssh -i ~/.ssh/id_rsa ubuntu@3.109.213.216
     ```
+6. **Get Private Key**:
 
+    ```bash
+    cat ~/.ssh/id_rsa
+    ```
 ---
 
 ## GitLab CI/CD Pipeline Configuration
